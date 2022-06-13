@@ -31,7 +31,6 @@ const router = useRouter();
 const route = useRoute();
 
 function navigateToSinglePlanet(link) {
-  // planets.getPlanetByLink(link);
   router.push(`/planets/${link.split("/")[5]}`);
 }
 
